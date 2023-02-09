@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Learning_Selenium"  basedir=".">
+    <property name="src" value="./src" />
+    <property name="test-output" value="./test-output" />
+    <property name="bin" value="./bin" />
+    <echo message="------------------------------------" />
+    <echo message="----------selenium-report-----------" />
+    <target name="init" description="delete bin folder and recreate it" >
+
+    </target>
+
+</project>
