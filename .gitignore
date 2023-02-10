@@ -1,3 +1,6 @@
 **/test-output/*
 **/target/*
 .idea/*
+drivers/*
+.project
+.classpath

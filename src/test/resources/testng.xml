@@ -3,6 +3,11 @@
 <suite name="Suite">
   <parameter name="browser" value="chrome"></parameter>
   <test thread-count="1" name="TestOne">
+    <groups>
+      <run>
+        <include name="sanity" />
+      </run>
+    </groups>
     <classes>
       <class name="org.example.SeleniumTest"/>
     </classes>
