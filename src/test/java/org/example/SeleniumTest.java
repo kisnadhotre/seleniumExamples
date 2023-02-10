@@ -29,7 +29,7 @@ public class SeleniumTest {
         //firefoxOptions.setBinary("/logs/khk/test1/FIREFOX_BROWSER/firefox/firefox");
         firefoxOptions.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
         firefoxOptions.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-        //firefoxOptions.addArguments("--headless", "--enable-javascript", "--enable-touch-drag-drop","--disable-gpu","--no-sandbox");
+        firefoxOptions.addArguments("--headless", "--enable-javascript", "--enable-touch-drag-drop","--disable-gpu","--no-sandbox");
         driver = new FirefoxDriver(firefoxOptions);
     }
 
