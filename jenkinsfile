@@ -9,5 +9,12 @@ pipeline {
                 }
             }
         }
+        stage('Test') {
+            steps {
+                withMaven(maven: 'maven_home') {
+                    sh 'mvn test'
+                }
+            }
+        }
     }
 }
